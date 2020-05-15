@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "~=3.8.0"
+pytest = "~=4.0"
+pytest-mock = "~=3.1"
+tox = "~=3.6"
+
+[packages]
+freezegun = "~=0.3"
+
+[requires]
+python_version = "3.8"
