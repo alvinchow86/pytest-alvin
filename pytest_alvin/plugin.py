@@ -1,5 +1,5 @@
 from .common import (    # noqa
-    config_override_factory, freezer
+    freezer
 )
 from .database import (    # noqa
     testdatabase_factory, db, db_fixture_check
